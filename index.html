@@ -93,6 +93,10 @@
 
     p { margin-bottom: 12px; color: #3a3a3c; }
 
+    ul { margin: 0 0 12px 20px; color: #3a3a3c; }
+
+    li { margin-bottom: 8px; }
+
     a { color: #2563EB; }
 
     footer {
@@ -120,7 +124,7 @@
   <!-- PRIVACY POLICY -->
   <section id="privacy">
     <h2>Informativa sulla Privacy</h2>
-    <p class="updated">Ultimo aggiornamento: 14 maggio 2026</p>
+    <p class="updated">Ultimo aggiornamento: 20 luglio 2026</p>
 
     <p>Panagraphic™ ("noi") ha sviluppato PanaCalc come applicazione freemium con acquisti in-app. Questa pagina descrive come raccogliamo e utilizziamo le informazioni degli utenti.</p>
 
@@ -131,7 +135,12 @@
     <p>Gli acquisti vengono gestiti interamente da Apple tramite StoreKit. Panagraphic™ non raccoglie né archivia dati di pagamento.</p>
 
     <h3>Connessioni di rete</h3>
-    <p>PanaCalc si connette ai server di Frankfurter (<a href="https://api.frankfurter.app" target="_blank">api.frankfurter.app</a>) e, in caso di indisponibilità, a ER-API (<a href="https://open.er-api.com" target="_blank">open.er-api.com</a>) per aggiornare i tassi di cambio della Banca Centrale Europea. Questa operazione avviene al massimo una volta al giorno e nessun dato personale viene trasmesso durante la connessione.</p>
+    <p>PanaCalc si connette a server esterni esclusivamente per scaricare dati pubblici, senza trasmettere alcun dato personale dell'utente:</p>
+    <ul>
+      <li><strong>Tassi di cambio</strong>: server di Frankfurter (<a href="https://api.frankfurter.app" target="_blank">api.frankfurter.app</a>) e, in caso di indisponibilità, ER-API (<a href="https://open.er-api.com" target="_blank">open.er-api.com</a>), per aggiornare i tassi di cambio della Banca Centrale Europea. Questa operazione avviene al massimo una volta al giorno.</li>
+      <li><strong>Dati di mercato</strong>: un servizio Cloudflare Worker gestito da Panagraphic™ e le API pubbliche della World Bank (<a href="https://api.worldbank.org" target="_blank">api.worldbank.org</a>), utilizzati per mostrare indici di riferimento e dati di inflazione nei calcolatori di investimento.</li>
+    </ul>
+    <p>In nessuna di queste connessioni viene trasmesso alcun dato personale dell'utente.</p>
 
     <h3>Dati salvati localmente</h3>
     <p>La cronologia dei calcoli e le preferenze dell'app vengono salvate esclusivamente sul dispositivo e non vengono mai trasmesse a server esterni.</p>
