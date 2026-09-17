@@ -20,6 +20,7 @@
       border-bottom: 1px solid #e5e5ea;
       padding: 24px 20px;
       text-align: center;
+      position: relative;
     }
 
     header h1 {
@@ -33,6 +34,18 @@
       color: #6e6e73;
       margin-top: 4px;
     }
+
+    .lang-switch {
+      position: absolute;
+      top: 24px;
+      right: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #2563EB;
+      text-decoration: none;
+    }
+
+    .lang-switch:hover { text-decoration: underline; }
 
     nav {
       display: flex;
@@ -110,8 +123,9 @@
 <body>
 
 <header>
+  <a class="lang-switch" href="en/">🇬🇧 English</a>
   <h1>PanaCalc</h1>
-  <p>by Panagraphic™</p>
+  <p>by Panagraphic®</p>
 </header>
 
 <nav>
@@ -124,21 +138,21 @@
   <!-- PRIVACY POLICY -->
   <section id="privacy">
     <h2>Informativa sulla Privacy</h2>
-    <p class="updated">Ultimo aggiornamento: 20 luglio 2026</p>
+    <p class="updated">Ultimo aggiornamento: 17 settembre 2026</p>
 
-    <p>Panagraphic™ ("noi") ha sviluppato PanaCalc come applicazione freemium con acquisti in-app. Questa pagina descrive come raccogliamo e utilizziamo le informazioni degli utenti.</p>
+    <p>Panagraphic® ("noi") ha sviluppato PanaCalc come applicazione freemium con acquisti in-app. Questa pagina descrive come raccogliamo e utilizziamo le informazioni degli utenti.</p>
 
     <h3>Dati raccolti da terze parti</h3>
     <p>PanaCalc utilizza Google AdMob per mostrare annunci pubblicitari. AdMob può raccogliere l'identificatore pubblicitario del dispositivo (IDFA), previo consenso tramite il prompt App Tracking Transparency (ATT), dati di utilizzo anonimi e informazioni sul dispositivo. Per maggiori informazioni: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>.</p>
 
     <h3>Acquisti in-app</h3>
-    <p>Gli acquisti vengono gestiti interamente da Apple tramite StoreKit. Panagraphic™ non raccoglie né archivia dati di pagamento.</p>
+    <p>Gli acquisti vengono gestiti interamente da Apple tramite StoreKit. Panagraphic® non raccoglie né archivia dati di pagamento.</p>
 
     <h3>Connessioni di rete</h3>
     <p>PanaCalc si connette a server esterni esclusivamente per scaricare dati pubblici, senza trasmettere alcun dato personale dell'utente:</p>
     <ul>
       <li><strong>Tassi di cambio</strong>: server di Frankfurter (<a href="https://api.frankfurter.app" target="_blank">api.frankfurter.app</a>) e, in caso di indisponibilità, ER-API (<a href="https://open.er-api.com" target="_blank">open.er-api.com</a>), per aggiornare i tassi di cambio della Banca Centrale Europea. Questa operazione avviene al massimo una volta al giorno.</li>
-      <li><strong>Dati di mercato</strong>: un servizio Cloudflare Worker gestito da Panagraphic™ e le API pubbliche della World Bank (<a href="https://api.worldbank.org" target="_blank">api.worldbank.org</a>), utilizzati per mostrare indici di riferimento e dati di inflazione nei calcolatori di investimento.</li>
+      <li><strong>Dati di mercato</strong>: un servizio Cloudflare Worker gestito da Panagraphic® e le API pubbliche della World Bank (<a href="https://api.worldbank.org" target="_blank">api.worldbank.org</a>), utilizzati per mostrare indici di riferimento e dati di inflazione nei calcolatori di investimento.</li>
     </ul>
     <p>In nessuna di queste connessioni viene trasmesso alcun dato personale dell'utente.</p>
 
@@ -167,7 +181,7 @@
   <!-- TERMINI DI SERVIZIO -->
   <section id="termini">
     <h2>Termini di Servizio</h2>
-    <p class="updated">Ultimo aggiornamento: 14 maggio 2026</p>
+    <p class="updated">Ultimo aggiornamento: 17 settembre 2026</p>
 
     <p>Utilizzando PanaCalc accetti i seguenti termini.</p>
 
@@ -178,19 +192,19 @@
     <p>PanaCalc offre abbonamenti Pro (settimanale, mensile, bimestrale, trimestrale, semestrale, annuale) e accesso temporaneo gratuito tramite annunci pubblicitari. Occasionalmente potrebbe essere disponibile un acquisto una tantum (lifetime) che sblocca permanentemente tutte le funzionalità Pro. Gli abbonamenti si rinnovano automaticamente salvo disdetta almeno 24 ore prima della scadenza. La gestione avviene tramite le impostazioni dell'ID Apple. Non sono previsti rimborsi per periodi parziali, salvo quanto previsto dalle politiche Apple.</p>
 
     <h3>Contenuti di terze parti</h3>
-    <p>L'app può mostrare contenuti pubblicitari forniti da terze parti (Google AdMob). Panagraphic™ non è responsabile del contenuto, dell'accuratezza o della disponibilità degli annunci pubblicitari mostrati nell'app.</p>
+    <p>L'app può mostrare contenuti pubblicitari forniti da terze parti (Google AdMob). Panagraphic® non è responsabile del contenuto, dell'accuratezza o della disponibilità degli annunci pubblicitari mostrati nell'app.</p>
 
     <h3>Proprietà intellettuale</h3>
-    <p>Tutti i contenuti dell'app sono di proprietà di Panagraphic™ e protetti dalle leggi sul diritto d'autore. È vietata la riproduzione senza autorizzazione scritta.</p>
+    <p>Tutti i contenuti dell'app sono di proprietà di Panagraphic® e protetti dalle leggi sul diritto d'autore. È vietata la riproduzione senza autorizzazione scritta.</p>
 
     <h3>Limitazione di responsabilità</h3>
-    <p>Panagraphic™ non è responsabile per danni derivanti dall'utilizzo dei calcoli forniti. L'app viene fornita "così com'è", senza garanzie di accuratezza assoluta.</p>
+    <p>Panagraphic® non è responsabile per danni derivanti dall'utilizzo dei calcoli forniti. L'app viene fornita "così com'è", senza garanzie di accuratezza assoluta.</p>
 
     <h3>Modifiche ai Termini</h3>
     <p>Ci riserviamo il diritto di modificare questi termini in qualsiasi momento. Eventuali modifiche verranno pubblicate su questa pagina con la data di aggiornamento aggiornata. L'uso continuato dell'app dopo la pubblicazione delle modifiche costituisce accettazione dei nuovi termini.</p>
 
     <h3>Legge applicabile</h3>
-    <p>Questi termini sono regolati dalla legge italiana. Per qualsiasi controversia è competente in via esclusiva il Foro competente in base alla sede legale di Panagraphic™.</p>
+    <p>Questi termini sono regolati dalla legge italiana. Per qualsiasi controversia è competente in via esclusiva il Foro competente in base alla sede legale di Panagraphic®.</p>
 
     <h3>Contatti</h3>
     <p><a href="mailto:support@panagraphic.it">support@panagraphic.it</a></p>
@@ -199,7 +213,7 @@
 </main>
 
 <footer>
-  © 2026 Panagraphic™ · Tutti i diritti riservati
+  © 2026 Panagraphic® · Tutti i diritti riservati
 </footer>
 
 </body>
